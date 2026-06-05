@@ -234,3 +234,66 @@ body {
     padding: 50px 20px;
   }
 }
+.contacto,
+.certificados {
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.certificados h2,
+.contacto h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.certificados-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.certificado-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.certificado-card h3 {
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+.certificado-card p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.certificado-card a {
+    display: inline-block;
+    text-decoration: none;
+    background: #0a66c2;
+    color: #ffffff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.certificado-card a:hover {
+    background: #084d91;
+}
+
+.certificado-card.en-curso {
+    border: 2px dashed #0a66c2;
+}
+
+.certificado-card.en-curso span {
+    display: inline-block;
+    background: #e8f1fb;
+    color: #0a66c2;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
